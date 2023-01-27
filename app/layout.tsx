@@ -44,7 +44,7 @@ export default function RootLayout({ children }: Props) {
                 name="search"
                 className="bg-lightGray py-1 px-4 w-full text rounded-l-md"
               />
-              <button className="bg-lightBlue text-white px-6 rounded-md flex flex-row justify-center items-center px-2 h-9">
+              <button className="bg-lightBlue text-white px-6 rounded-md flex flex-row justify-center items-center h-9">
                 <Image
                   src="./search.svg"
                   alt="Search"
