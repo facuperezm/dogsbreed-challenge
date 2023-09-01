@@ -7,7 +7,7 @@ interface FavoriteState {
 }
 
 export const useFavorites = create<FavoriteState>((set) => ({
-        favorites: JSON.parse(localStorage.getItem('favorites') || "[]"),
+        favorites: JSON.parse(window.localStorage.getItem('favorites') || "[]"),
         toggleFavorite: (image) => 
         set(({favorites}) => {
           const draft = favorites.includes(image) 
